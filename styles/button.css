@@ -1,0 +1,23 @@
+.app-button {
+	transition: padding 10ms;
+
+	margin: 0 25px;
+	padding: 12px 18px;
+
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: .2rem;
+  
+  color: #F9FAFB;
+  background-color: #5F27CD;
+  
+	border: none;
+	border-radius: 4px;
+
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.app-button:active {
+  transform: scale(0.98);
+}
